@@ -1,0 +1,1 @@
+# atarrayo-wp-static
