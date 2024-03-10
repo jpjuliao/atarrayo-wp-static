@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for ATARRAYO	</title>
-	<atom:link href="/atarrayo-1-wp-static/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/atarrayo-1-wp-static/</link>
+	<atom:link href="/atarrayo-wp-static/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/atarrayo-wp-static/</link>
 	<description> Musician Personal Website</description>
 	<lastBuildDate>Tue, 05 Mar 2024 05:15:54 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>/atarrayo-1-wp-static/hello-world/#comment-1</link>
+		<link>/atarrayo-wp-static/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Tue, 05 Mar 2024 05:15:54 +0000</pubDate>
-		<guid isPermaLink="false">/atarrayo-1-wp-static/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/atarrayo-wp-static/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.

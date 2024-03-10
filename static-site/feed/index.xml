@@ -9,8 +9,8 @@
 
 <channel>
 	<title>ATARRAYO</title>
-	<atom:link href="/atarrayo-1-wp-static/feed/" rel="self" type="application/rss+xml" />
-	<link>/atarrayo-1-wp-static/</link>
+	<atom:link href="/atarrayo-wp-static/feed/" rel="self" type="application/rss+xml" />
+	<link>/atarrayo-wp-static/</link>
 	<description> Musician Personal Website</description>
 	<lastBuildDate>Tue, 05 Mar 2024 05:15:54 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,20 +21,20 @@
 	<generator>https://wordpress.org/?v=6.4.3</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/atarrayo-1-wp-static/hello-world/</link>
-					<comments>/atarrayo-1-wp-static/hello-world/#comments</comments>
+		<link>/atarrayo-wp-static/hello-world/</link>
+					<comments>/atarrayo-wp-static/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[jpjuliao]]></dc:creator>
 		<pubDate>Tue, 05 Mar 2024 05:15:54 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/atarrayo-1-wp-static/?p=1</guid>
+		<guid isPermaLink="false">/atarrayo-wp-static/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/atarrayo-1-wp-static/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/atarrayo-wp-static/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
