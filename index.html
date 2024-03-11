@@ -32,6 +32,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="contact-form-7-css" href="/atarrayo-wp-static/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9" media="all">
 <link rel="stylesheet" id="woocommerce-layout-css" href="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=8.6.1" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=8.6.1" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=8.6.1" media="all">
@@ -40,12 +41,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="stylesheet" id="hello-elementor-theme-style-css" href="/atarrayo-wp-static/wp-content/themes/hello-elementor/theme.min.css?ver=3.0.1" media="all">
 <link rel="stylesheet" id="hello-elementor-header-footer-css" href="/atarrayo-wp-static/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.0.1" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="/atarrayo-wp-static/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.4" media="all">
-<link rel="stylesheet" id="elementor-post-6-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-6.css?ver=1710112119" media="all">
+<link rel="stylesheet" id="elementor-post-6-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-6.css?ver=1710126466" media="all">
 <link rel="stylesheet" id="eael-general-css" href="/atarrayo-wp-static/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.9.10" media="all">
-<link rel="stylesheet" id="eael-61-css" href="/atarrayo-wp-static/wp-content/uploads/essential-addons-elementor/eael-61.css?ver=1710103105" media="all">
+<link rel="stylesheet" id="eael-61-css" href="/atarrayo-wp-static/wp-content/uploads/essential-addons-elementor/eael-61.css?ver=1710108405" media="all">
 <link rel="stylesheet" id="swiper-css" href="/atarrayo-wp-static/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/global.css?ver=1710112120" media="all">
-<link rel="stylesheet" id="elementor-post-61-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-61.css?ver=1710121106" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/global.css?ver=1710126466" media="all">
+<link rel="stylesheet" id="wpforms-modern-full-css" href="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?ver=1.8.7.2" media="all">
+<link rel="stylesheet" id="elementor-post-61-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-61.css?ver=1710126466" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <script src="/atarrayo-wp-static/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
@@ -74,7 +76,37 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 		<style id="wp-custom-css">.elementor {
     overflow: hidden;
 }</style>
-		</head>
+		<style id="wpforms-css-vars-root">:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}</style>
+</head>
 <body class="home page-template page-template-elementor_header_footer page page-id-61 wp-custom-logo theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-61">
 		<div data-elementor-type="templately-header" data-elementor-id="56" class="elementor elementor-56" data-elementor-post-type="templately_library" data-elementor-title="Header">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-fc1d69a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fc1d69a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -117,7 +149,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 				<div class="elementor-element elementor-element-3efdb6b elementor-widget elementor-widget-audio" data-id="3efdb6b" data-element_type="widget" data-widget_type="audio.default">
 				<div class="elementor-widget-container">
 						<div class="elementor-soundcloud-wrapper">
-				<iframe width="800" height="400" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1669263495&#038;show_artwork=false&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=false&#038;liking=false&#038;download=false&#038;sharing=false&#038;show_comments=false&#038;show_playcount=false&#038;show_user=false&#038;color"></iframe>			</div>
+				<iframe width="800" height="450" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1536264880&#038;show_artwork=false&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=false&#038;liking=false&#038;download=false&#038;sharing=false&#038;show_comments=false&#038;show_playcount=false&#038;show_user=false&#038;color"></iframe>			</div>
 					</div>
 				</div>
 				</div>
@@ -129,7 +161,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 				<div class="elementor-element elementor-element-6e2adfa elementor-widget elementor-widget-audio" data-id="6e2adfa" data-element_type="widget" data-widget_type="audio.default">
 				<div class="elementor-widget-container">
 						<div class="elementor-soundcloud-wrapper">
-				<iframe width="800" height="450" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1536264880&#038;show_artwork=false&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=false&#038;liking=false&#038;download=false&#038;sharing=false&#038;show_comments=false&#038;show_playcount=false&#038;show_user=false&#038;color"></iframe>			</div>
+				<iframe width="800" height="200" frameborder="no" src="https://w.soundcloud.com/player/?visual=false&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1498280257&#038;show_artwork=true&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=true&#038;liking=true&#038;download=true&#038;sharing=true&#038;show_comments=true&#038;show_playcount=true&#038;show_user=true&#038;color"></iframe>			</div>
 					</div>
 				</div>
 				</div>
@@ -137,7 +169,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 				<div class="elementor-element elementor-element-470d09d elementor-widget elementor-widget-audio" data-id="470d09d" data-element_type="widget" data-widget_type="audio.default">
 				<div class="elementor-widget-container">
 						<div class="elementor-soundcloud-wrapper">
-				<iframe width="800" height="400" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1474974331&#038;show_artwork=false&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=false&#038;liking=false&#038;download=false&#038;sharing=false&#038;show_comments=false&#038;show_playcount=false&#038;show_user=false&#038;color"></iframe>			</div>
+				<iframe width="800" height="200" frameborder="no" src="https://w.soundcloud.com/player/?visual=false&#038;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F1474974331&#038;show_artwork=true&#038;maxheight=1000&#038;maxwidth=800&#038;auto_play=false&#038;buying=true&#038;liking=true&#038;download=true&#038;sharing=true&#038;show_comments=true&#038;show_playcount=true&#038;show_user=true&#038;color"></iframe>			</div>
 					</div>
 				</div>
 				</div>
@@ -175,125 +207,102 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 				</div>
 					</div>
 				</div>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-5ca2414 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ca2414" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9365f90" data-id="9365f90" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9194aab elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="9194aab" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d80c91b" data-id="d80c91b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-f0f1077 elementor-widget elementor-widget-heading" data-id="f0f1077" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+		<div class="elementor-element elementor-element-60600b1 e-flex e-con-boxed e-con e-parent" data-id="60600b1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3709c6e elementor-widget elementor-widget-heading" data-id="3709c6e" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">UPCOMING</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">About</h2>		</div>
 				</div>
 					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-de86507 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="de86507" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-fea123f elementor-invisible" data-id="fea123f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-8bbf508 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="8bbf508" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">05</h3>		</div>
 				</div>
-				<div class="elementor-element elementor-element-4f6fbe6 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="4f6fbe6" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">January, 2021</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-12e9b9b elementor-widget elementor-widget-heading" data-id="12e9b9b" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">The london taphouse</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b717977 elementor-widget elementor-widget-text-editor" data-id="b717977" data-element_type="widget" data-widget_type="text-editor.default">
+		<div class="elementor-element elementor-element-81b0471 e-flex e-con-boxed e-con e-parent" data-id="81b0471" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-aa90f08 e-con-full e-flex e-con e-child" data-id="aa90f08" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-6d7d127 elementor-widget elementor-widget-text-editor" data-id="6d7d127" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.19.0 - 28-02-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				Lorem Ipsum is simply dummy text of the printing
-and typesetting industry.						</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>ATARRAYO IS A MUSICIAN AND PRODUCER ORIGINALLY FROM BARRANQUILLA, COLOMBIA. IN HIS COMPOSITIONS, HE CAPTURES THE ESSENCE OF AFRO-COLOMBIAN SOUNDS AND HARMONIOUSLY BLENDS THEM WITH ELECTRONIC MUSIC. THROUGHOUT HIS LIFE, HE HAS EXPLORED AND PRESERVED THESE EXTRAORDINARY SOUND TREASURES AND INCORPORATED ELECTRONIC ELEMENTS INTO THEM. HIS MUSIC IS COMPOSED OF HYPNOTIC RHYTHMS, TRADITIONAL PERCUSSION WITH AFRO-COLOMBIAN DRUMS, GAITAS, MARIMBAS, AND ANCESTRAL SOUNDS. THESE ARE INTERWOVEN WITH MINIMAL/TECHNO AND ORGANIC HOUSE RHYTHMS THAT WILL MAKE YOU GROOVE ON THE DANCE FLOOR.</p>						</div>
 				</div>
-				<div class="elementor-element elementor-element-76d64a9 elementor-align-center elementor-widget elementor-widget-button" data-id="76d64a9" data-element_type="widget" data-widget_type="button.default">
+				</div>
+		<div class="elementor-element elementor-element-6662b69 e-con-full e-flex e-con e-child" data-id="6662b69" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-95441f2 elementor-widget elementor-widget-text-editor" data-id="95441f2" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Buy Ticket</span>
-		</span>
-					</a>
+							<p>DURING THE YEAR 2023, HE UNDERTOOK HIS FIRST EUROPEAN TOUR, PARTICIPATING IN CONCERTS AND PLAYING AT VARIOUS FESTIVALS. FOR THE YEAR 2024, HE IS PREPARING HIS NEXT EUROPEAN TOUR TO SHARE HIS LATEST ALBUM. THIS ALBUM BRINGS TOGETHER TRADITIONAL COLOMBIAN MUSIC, SUCH AS PALANQUE SOUND, SEXTETO TABALA, AND GAITEROS DE OVEJAS. HIS LATEST DISCOGRAPHIC WORK FEATURES THE PARTICIPATION OF VARIOUS INTERNATIONAL ARTISTS, SUCH AS DJ RAFF (UK), DAN BAY (DR), AND DIEGO NARVAEZ (EC).</p>						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-c13f1cf e-flex e-con-boxed e-con e-parent" data-id="c13f1cf" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-bd65dec elementor-widget elementor-widget-heading" data-id="bd65dec" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Booking</h2>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-13d57f5 e-flex e-con-boxed e-con e-parent" data-id="13d57f5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b3b48a8 e-con-full e-flex e-con e-child" data-id="b3b48a8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-3fb02df elementor-widget elementor-widget-heading" data-id="3fb02df" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Rider</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8f650be elementor-widget elementor-widget-text-editor" data-id="8f650be" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: var( --e-global-color-text ); font-family: var( --e-global-typography-text-font-family ), Sans-serif; font-weight: var( --e-global-typography-text-font-weight ); text-align: var(--text-align); font-size: 1rem;">PIONEER RX 2-3</span></p>
+<p>CDJ 2000,3000</p>
+<p>XDJ ( RMX 1000 )</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0f30059 elementor-widget elementor-widget-heading" data-id="0f30059" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Manager</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f97d1c6 elementor-widget elementor-widget-text-editor" data-id="f97d1c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><a href="tel:+33644019359"><span style="color: var( --e-global-color-text ); font-family: var( --e-global-typography-text-font-family ), Sans-serif; font-weight: var( --e-global-typography-text-font-weight ); text-align: var(--text-align); font-size: 1rem;">(+33) 6 44 01 93 59</span></a></p>
+<p><a href="mailto:ERWIN_SURF@HOTMAIL.COM">ERWIN_SURF@HOTMAIL.COM</a></p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0491dd4 e-con-full e-flex e-con e-child" data-id="0491dd4" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-af64350 elementor-widget elementor-widget-heading" data-id="af64350" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Let's Talk</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a65b771 eael-wpforms-form-button-custom elementor-widget elementor-widget-eael-wpforms" data-id="a65b771" data-element_type="widget" data-widget_type="eael-wpforms.default">
+				<div class="elementor-widget-container">
+			            <div class="eael-contact-form eael-wpforms eael-contact-form-align-default">
+                                <div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-198"><form id="wpforms-form-198" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="198" method="post" enctype="multipart/form-data" action="/?simply_static_page=3477" data-token="8ee79aeea5fed35da42bb2490e0fb15d">
+<noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+<div class="wpforms-hidden" id="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</div>
+<div class="wpforms-field-container">
+<div id="wpforms-198-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><fieldset>
+<legend class="wpforms-field-label">Name <span class="wpforms-required-label" aria-hidden="true">*</span>
+</legend>
+<div class="wpforms-field-row wpforms-field-medium">
+<div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+<input type="text" id="wpforms-198-field_0" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][0][first]" placeholder="First Name" aria-errormessage="wpforms-198-field_0-error" required><label for="wpforms-198-field_0" class="wpforms-field-sublabel after ">First</label>
+</div>
+<div class="wpforms-field-row-block wpforms-one-half">
+<input type="text" id="wpforms-198-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][0][last]" placeholder="Last Name" aria-errormessage="wpforms-198-field_0-last-error" required><label for="wpforms-198-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+</div>
+</div>
+</fieldset></div>
+<div id="wpforms-198-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1">
+<label class="wpforms-field-label" for="wpforms-198-field_1">Email <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-198-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" placeholder="Email" spellcheck="false" aria-errormessage="wpforms-198-field_1-error" required>
+</div>
+<div id="wpforms-198-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2">
+<label class="wpforms-field-label" for="wpforms-198-field_2">Message</label><textarea id="wpforms-198-field_2" class="wpforms-field-medium" name="wpforms[fields][2]" placeholder="Message" aria-errormessage="wpforms-198-field_2-error"></textarea>
+</div>
+</div>
+<!-- .wpforms-field-container --><div class="wpforms-submit-container">
+<input type="hidden" name="wpforms[id]" value="198"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="61"><button type="submit" name="wpforms[submit]" id="wpforms-submit-198" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button><img decoding="async" src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
+</div>
+</form></div>  <!-- .wpforms-container -->            </div>
 		</div>
 				</div>
 				</div>
 					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7f37d48 elementor-invisible" data-id="7f37d48" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-0b3186d elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="0b3186d" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">07</h3>		</div>
 				</div>
-				<div class="elementor-element elementor-element-2550dca elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="2550dca" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">January, 2021</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-a0c8bb1 elementor-widget elementor-widget-heading" data-id="a0c8bb1" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">New york city party</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b44e666 elementor-widget elementor-widget-text-editor" data-id="b44e666" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							Lorem Ipsum is simply dummy text of the printing
-and typesetting industry.						</div>
-				</div>
-				<div class="elementor-element elementor-element-5f8eea9 elementor-align-center elementor-widget elementor-widget-button" data-id="5f8eea9" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Buy Ticket</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4f8118c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="4f8118c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a054643" data-id="a054643" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-c1fd0c2 elementor-widget elementor-widget-eael-countdown" data-id="c1fd0c2" data-element_type="widget" data-widget_type="eael-countdown.default">
-				<div class="elementor-widget-container">
-			
-		<div class="eael-countdown-wrapper" data-countdown-id="c1fd0c2" data-expire-type="none" data-countdown-type="due_date">
-			<div class="eael-countdown-container eael-countdown-label-inline   ">
-				<ul id="eael-countdown-c1fd0c2" class="eael-countdown-items" data-date="Mar 31 2021 0:00:00 -5">
-					<li class="eael-countdown-item"><div class="eael-countdown-days">
-<span data-days class="eael-countdown-digits">00</span><span class="eael-countdown-label">DAYS TO GO</span>
-</div></li>																	</ul>
-                <div class="eael-countdown-expiry-template" style="display: none;">
-					                </div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-
-			</div>
-				</div>
-				<div class="elementor-element elementor-element-def57de elementor-widget elementor-widget-heading" data-id="def57de" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">THE COUNTDOWN FOR OUR NEXT EVENT BEGINS</h4>		</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-					</div>
-		</div>
-					</div>
-		</section>
 				</div>
 				<div data-elementor-type="templately-footer" data-elementor-id="58" class="elementor elementor-58" data-elementor-post-type="templately_library" data-elementor-title="Footer">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-776849f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="776849f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -412,34 +421,50 @@ and typesetting industry.						</div>
 <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.<\/p>
 </script>
-<link rel="stylesheet" id="elementor-post-56-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-56.css?ver=1710112120" media="all">
-<link rel="stylesheet" id="elementor-post-58-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-58.css?ver=1710113768" media="all">
+<link rel="stylesheet" id="elementor-post-56-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-56.css?ver=1710126466" media="all">
+<link rel="stylesheet" id="elementor-post-58-css" href="/atarrayo-wp-static/wp-content/uploads/elementor/css/post-58.css?ver=1710126468" media="all">
 <link rel="stylesheet" id="e-animations-css" href="/atarrayo-wp-static/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.19.4" media="all">
 <link rel="stylesheet" id="photoswipe-css" href="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=8.6.1" media="all">
 <link rel="stylesheet" id="photoswipe-default-skin-css" href="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=8.6.1" media="all">
+<script src="/atarrayo-wp-static/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9" id="swv-js"></script>
+<script id="contact-form-7-js-extra">var wpcf7 = {"api":{"root":"\/atarrayo-wp-static\/wp-json\/","namespace":"contact-form-7\/v1"}};</script>
+<script src="/atarrayo-wp-static/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9" id="contact-form-7-js"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.6.1" id="sourcebuster-js-js"></script>
 <script id="wc-order-attribution-js-extra">var wc_order_attribution = {"params":{"lifetime":1.0000000000000001e-5,"session":30,"ajaxurl":"\/atarrayo-wp-static\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};</script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.6.1" id="wc-order-attribution-js"></script>
 <script src="/atarrayo-wp-static/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.0.1" id="hello-theme-frontend-js"></script>
 <script id="eael-general-js-extra">var localize = {"ajaxurl":"\/atarrayo-wp-static\/wp-admin\/admin-ajax.php","nonce":"d47c83e62a","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"\/atarrayo-wp-static\/","cart_redirectition":"no","cart_page_url":"\/atarrayo-wp-static","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
 <script src="/atarrayo-wp-static/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.9.10" id="eael-general-js"></script>
-<script src="/atarrayo-wp-static/wp-content/uploads/essential-addons-elementor/eael-61.js?ver=1710103105" id="eael-61-js"></script>
+<script src="/atarrayo-wp-static/wp-content/uploads/essential-addons-elementor/eael-61.js?ver=1710108405" id="eael-61-js"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.4" id="elementor-webpack-runtime-js"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.4" id="elementor-frontend-modules-js"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="/atarrayo-wp-static/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true},"urls":{"assets":"\/atarrayo-wp-static\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_footer_logo_type":"logo"},"post":{"id":61,"title":"ATARRAYO%20%E2%80%93%20Musician%20%26%20Producer","excerpt":"","featuredImage":false}};</script>
 <script src="/atarrayo-wp-static/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.4" id="elementor-frontend-js"></script>
+<script src="/atarrayo-wp-static/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};</script>
+<script src="/atarrayo-wp-static/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+<script id="wpforms-elementor-js-extra">var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};</script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.7.2" id="wpforms-elementor-js"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.8.6.1" id="zoom-js" defer data-wp-strategy="defer"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.8.6.1" id="flexslider-js" defer data-wp-strategy="defer"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.8.6.1" id="photoswipe-js" defer data-wp-strategy="defer"></script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.8.6.1" id="photoswipe-ui-default-js" defer data-wp-strategy="defer"></script>
-<script src="/atarrayo-wp-static/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
-<script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};</script>
-<script src="/atarrayo-wp-static/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
 <script id="wc-add-to-cart-variation-js-extra">var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};</script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=8.6.1" id="wc-add-to-cart-variation-js" defer data-wp-strategy="defer"></script>
 <script id="wc-single-product-js-extra">var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};</script>
 <script src="/atarrayo-wp-static/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=8.6.1" id="wc-single-product-js" defer data-wp-strategy="defer"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.19.5" id="wpforms-validation-js"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2" id="wpforms-mailcheck-js"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0" id="wpforms-punycode-js"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?ver=1.8.7.2" id="wpforms-generic-utils-js"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?ver=1.8.7.2" id="wpforms-js"></script>
+<script src="/atarrayo-wp-static/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?ver=1.8.7.2" id="wpforms-modern-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_minimum_price":"Amount entered is less than the required minimum.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_turnstile_fail_msg":"Cloudflare Turnstile verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","wpforms_plugin_url":"\/atarrayo-wp-static\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"\/atarrayo-wp-static\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"","page_title":"EleMusic","page_id":"61","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","css_vars":["field-border-radius","field-background-color","field-border-color","field-text-color","label-color","label-sublabel-color","label-error-color","button-border-radius","button-background-color","button-text-color","page-break-color","field-size-input-height","field-size-input-spacing","field-size-font-size","field-size-line-height","field-size-padding-h","field-size-checkbox-size","field-size-sublabel-spacing","field-size-icon-size","label-size-font-size","label-size-line-height","label-size-sublabel-font-size","label-size-sublabel-line-height","button-size-font-size","button-size-height","button-size-padding-h","button-size-margin-top"],"isModernMarkupEnabled":"1","formErrorMessagePrefix":"Form error message","errorMessagePrefix":"Error message","submitBtnDisabled":"Submit button is disabled during form submission."}
+/* ]]> */
+</script>
 </body>
 </html>
