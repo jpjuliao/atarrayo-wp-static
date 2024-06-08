@@ -12,5 +12,5 @@ This a Static Website generated with Simply Static Wordpress plugin.
 1. Generate new static site files with the Simply Static dashboard
 2. Deploy your changes
 ```sh
-sh deploy.sh "Your commit message"
+sh deploy.sh "<Your commit message>" "<Wordpress root folder>"
 ```
